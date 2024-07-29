@@ -1,0 +1,29 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    background: transparent;
+    font-family: 'Poppins',sans-serif;
+    cursor: default;
+    /* width: 100vw; */
+}
+body{
+    background-color: rgb(30, 30, 30);
+    color: white;
+    overflow: hidden;
+    overflow-y: scroll;
+}
+.sectionTitle{
+    font-size: 3rem;
+    font-weight: 600;
+    padding-top: 3rem;
+    margin-bottom: 1.5rem;
+}
+.sectionsubtitle{
+    font-weight: 300;
+    max-width: 50rem;
+    padding: 1.2rem;
+    text-align: center;
+    margin: 0 auto;
+}

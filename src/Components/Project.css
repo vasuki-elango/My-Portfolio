@@ -1,0 +1,40 @@
+#project{
+    min-height: calc(100vh-4rem);
+    width: 100vw;
+    max-width: 60rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    padding:0 1rem;
+    margin: 0 auto;
+}
+.workings{
+    width: 100vw;
+    max-width: 65rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin: 1.5rem;
+}
+.workings img{
+    object-fit: cover;
+    height: 20rem;
+    margin: 0.5rem;
+    border-radius: 1rem;
+}
+.workBtn{
+    padding: 0.5rem 2.5rem;
+    border: none;
+    border-radius: 2rem;
+    background-color: white;
+    margin: 3rem 0;
+    font-size: 1rem;
+}
+@media screen and(max-width:585px) {
+    .workings img{
+        height: 50vw;
+    }
+}

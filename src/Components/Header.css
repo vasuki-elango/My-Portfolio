@@ -1,0 +1,84 @@
+.navbar{
+    height: 5rem;
+    width: 100%;
+    margin: 0 auto;
+    padding: 1rem 2rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    position: sticky;
+    top: 0;
+    z-index: 3;
+    max-width: 75rem;
+    background-color: rgb(30, 30, 30);
+}
+.desktopItem{
+   margin: 1rem;
+   cursor: pointer;
+   font-size: 1.2rem;
+}
+.btn{
+    background-color: white;
+    color: black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: none;
+    padding: 0.5rem 1rem;
+    border-radius: 2rem;
+    cursor: pointer;
+    gap: 0.1rem;
+    transition: all 0.3s;
+}
+.desktopItem:hover{
+    color: yellow;
+    padding-bottom: 0.5rem;
+    border-bottom: 2px solid yellow;
+}
+.active{
+    color: yellow;
+    border-bottom: 2px solid yellow;
+    padding-bottom: 0.5rem;
+}
+.logo{
+    font-size: 2rem;
+    color: yellow;
+}
+.btn:hover{
+    background-color: rgb(240, 240, 26);
+}
+.mbmenu{
+    display: none;
+    object-fit: cover;
+    height: 1.5rem;
+}
+.navMenu{
+    position: absolute;
+    top: 4rem;
+    right: 2rem;
+    z-index: 2;
+    display: flex;
+    flex-direction: column;
+    padding: 0.5rem;
+    height: fit-content;
+    width: 85%;
+    background: rgb(40, 40, 40);
+}
+.listItem{
+    text-align: center;
+    padding: 1rem 3rem;
+    margin: 0.25rem;
+    background: rgb(30, 30, 30);
+    color: white;
+}
+@media screen and (max-width:770px){
+    .desktopMenu{
+        display: none;
+    }
+    .mbmenu{
+        display: flex;
+    }
+    .btn{
+        display: none;
+    }
+}
