@@ -6,6 +6,7 @@ import { HeroSection } from "./Components/HeroSection";
 import { Project } from "./Components/Project";
 import { Service } from "./Components/Service";
 import { Skills } from "./Components/Skills";
+import './App.css'
 
 function App() {
   return (

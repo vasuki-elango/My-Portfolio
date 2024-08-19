@@ -1,6 +1,7 @@
 import React from 'react'
 import AboutImg from '../assets/Me.jpg'
 import './About.css'
+import pdf from '../assets/VASUKI-UI&UX.pdf'
 
 export const About = () => {
   return (
@@ -29,11 +30,12 @@ export const About = () => {
                     
                 </div>
                 <p className="aboutDesc">
-                    Lorem ipsum dolor sit amet consectetur adipisicing elit. At voluptatibus cupiditate quidem voluptate blanditiis ipsa suscipit doloremque fugiat itaque omnis!
-                    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusantium, sequi adipisci porro iusto iste praesentium inventore provident explicabo. Id error ipsam itaque reprehenderit non beatae numquam quas aliquam nostrum eligendi.</p>
+                    I am Vasuki,a montivated student at AAA College with a string passion for software developer and web technologies.I have developed a solid foundation in programming languages such as Java and JavaScript and have gained hands-on-experience with framework like React.js has allowed me to create dynamic and responsive web applications.
+                    In addition to my technical abilities,I value teamwork and collaboration.Working on group projects has taught me the importance of effective coomunication and problem-solving within a team setting.I am always eagar to learn new things and adopt to challenges, which I belive are key qualities in the fast-evolving tech industry. 
+                </p>
                 <button className='aboutbtn btn'>
                 <i class='bx bxs-download' ></i>
-                    <a  download="" href='https://wa/me' >Download Cv</a>
+                    <a  download="vasuki" href={pdf} >Download Cv</a>
                 </button>
             </div>
         </div>

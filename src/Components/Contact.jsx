@@ -26,7 +26,7 @@ export const Contact = () => {
   return (
     <section id="contact">
         <h1 className="sectionTitle">Contact Me</h1>
-        <p className="sectionsubtitle">Please fill out the form below to discuss any work opportuities.</p>
+        <p className="sectionsubtitle">Please fill out the form below to discuss any work opportunities.</p>
         <form action="" className="contactform" ref={form} onSubmit={sendEmail}>
             <input type="text" name="your_name" className='name' placeholder='Your Name'/>
             <input type="email" name="your_email" className='email' placeholder='Your Email'/>
