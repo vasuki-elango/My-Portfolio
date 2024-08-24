@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/My-Portfolio/static/css/main.fd024a7b.css",
-    "main.js": "/My-Portfolio/static/js/main.9e320e1c.js",
+    "main.css": "/My-Portfolio/static/css/main.c5739895.css",
+    "main.js": "/My-Portfolio/static/js/main.b54b6519.js",
     "static/media/organic.png": "/My-Portfolio/static/media/organic.5aec539bb2fd5f89778c.png",
     "static/media/flower.png": "/My-Portfolio/static/media/flower.1b822343d3eab20700aa.png",
     "static/media/gym.png": "/My-Portfolio/static/media/gym.c059882757a80bd9d46b.png",
@@ -19,11 +19,11 @@
     "static/media/VASUKI-UI&UX.pdf": "/My-Portfolio/static/media/VASUKI-UI&UX.2643c7f8551e7ba9aceb.pdf",
     "static/media/uiux.png": "/My-Portfolio/static/media/uiux.f3ca39d6b6f330d4d8a9.png",
     "index.html": "/My-Portfolio/index.html",
-    "main.fd024a7b.css.map": "/My-Portfolio/static/css/main.fd024a7b.css.map",
-    "main.9e320e1c.js.map": "/My-Portfolio/static/js/main.9e320e1c.js.map"
+    "main.c5739895.css.map": "/My-Portfolio/static/css/main.c5739895.css.map",
+    "main.b54b6519.js.map": "/My-Portfolio/static/js/main.b54b6519.js.map"
   },
   "entrypoints": [
-    "static/css/main.fd024a7b.css",
-    "static/js/main.9e320e1c.js"
+    "static/css/main.c5739895.css",
+    "static/js/main.b54b6519.js"
   ]
 }
