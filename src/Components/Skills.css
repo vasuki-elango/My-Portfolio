@@ -37,7 +37,7 @@
     place-content: center;
     padding: 1rem;
 }
-@media screen and (max-width:482px) {
+@media screen and (max-width:582px) {
     .skill-container{
         grid-template-columns: auto;
     }

@@ -65,7 +65,7 @@
     }
 }
 
-@media screen and (max-width:480px) {
+@media screen and (max-width:580px) {
     .workings{
         grid-template-columns: repeat(1,1fr);
     }
