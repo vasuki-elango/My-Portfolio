@@ -22,8 +22,9 @@ body{
 }
 .sectionsubtitle{
     font-weight: 300;
-    max-width: 50rem;
-    padding: 1.2rem;
-    text-align: center;
-    margin: 0 auto;
+    max-width: 55rem;
+    /* margin: 0 auto; */
+    font-size: medium;
+    padding: 0 1.5rem;
+    line-height: 24px;
 }

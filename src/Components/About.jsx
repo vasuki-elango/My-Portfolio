@@ -1,7 +1,7 @@
 import React from 'react'
 import AboutImg from '../assets/Me.jpg'
 import './About.css'
-import pdf from '../assets/VASUKI-UI&UX.pdf'
+import pdf from '../assets/Vasuki.pdf'
 
 export const About = () => {
   return (

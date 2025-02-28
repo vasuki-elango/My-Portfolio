@@ -34,10 +34,10 @@ export const Contact = () => {
             <button type="submit"  value='Send' className='sumbitbtn'>Submit</button>
         </form>
         <div className="links">
-            <a href="https://wa.me/+91 8903183013"><img src={whats} alt="Whatsapp" className="link" /></a>
-            <a href="mailto:vasukie96@gmail.com"><img src={gmail} alt="Gmail" className="link" /></a>
-            <a href="https://github.com/vasuki-elango"><img src={github} alt="GitHub" className="link" /></a>
-            <a href="https://www.linkedin.com/in/vasuki-e-b76441246/"><img src={linkedin} alt="Linkedin" className="link" /></a>
+            <a href="https://wa.me/+918903183013" target='__blank'><img src={whats} alt="Whatsapp" className="link" /></a>
+            <a href="mailto:vasukie96@gmail.com" target='__blank'><img src={gmail} alt="Gmail" className="link" /></a>
+            <a href="https://github.com/vasuki-elango" target='__blank'><img src={github} alt="GitHub" className="link" /></a>
+            <a href="https://www.linkedin.com/in/vasuki-e-b76441246/" target='__blank'><img src={linkedin} alt="Linkedin" className="link" /></a>
         </div>
     </section>
   )

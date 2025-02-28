@@ -18,7 +18,7 @@ export const Header = () => {
       <button className="btn" onClick={()=>{
             document.getElementById("contact").scrollIntoView();
           }}>
-          <i class='bx bxs-message'></i>Contact Me
+          <i className='bx bxs-message'></i>Contact Me
       </button>
       <img src={menu} alt="menu" className='mbmenu'  onClick={()=>setshowMenu(!showMenu)}/>
       <div className='navMenu' style={{display: showMenu? 'flex':'none'}}>
