@@ -7,8 +7,15 @@ import Moviehub from './MovieHub.png';
 import organic from './organic.png';
 import quiz from './quiz.png';
 import recipefinder from './recipefinder.jpeg';
+import styylleHive from './styylle-hive.jpeg'
 
 export const Projectdata =[
+    {
+        _id:0,
+        pic:styylleHive,
+        title:"StYyLle Hive",
+        link:"https://styylle-hive-client.vercel.app/"
+    },
     {
         _id:1,
         pic:Moviehub,
@@ -63,5 +70,4 @@ export const Projectdata =[
         title:"FIFASH UI/UX Desgin",
         link:"https://www.figma.com/proto/fK7sX2Oxw2VKGXZOnEQMeS/E-Commerce?node-id=0-1&t=KB28swWVGKCi4Ahu-1"
     },
-    
 ]       

@@ -1,20 +1,23 @@
 import React from 'react'
-import './Service.css'
 import { serviceData } from '../assets/Data'
 
 export const Service = () => {
   return (
-    <section id='services'>
-      <span className='sectionTitle'>What I do</span>
-      <span className="sectionsubtitle">I specialize in software development,focusing on creating responsive and user-friendly web applications.With a strong foundation in programming languages like Java and JavaScript,I build efficient and scalable solutions.My expertise extends to frond-end frameworks like React.js, Where i craft dynamic interfaces that enhance user experience.</span>
-      <div className="serviceBars"> 
+    <section className='mx-auto max-w-[55rem] p-5' id='services'>
+      <p className='sectionTitle'>What I do</p>
+      
+      {/* service content */}
+      <span className="block py-4 text-center mb-4">Offering comprehensive services in MERN stack development, UI/UX design, and front-end development, I specialize in building dynamic, responsive web applications with a focus on user-centered design and seamless functionality.</span>
+
+      {/* my services */}
+      <div className="flex flex-col gap-5 justify-center w-3/4 mx-auto"> 
         {
           serviceData.map((data)=>{
-            return  <div className="serviceBar" key={data._id}>
-            <img src={data.img} alt={data.title} />
-            <div className="serviceBarText">
-              <h2>{data.title}</h2>
-              <p>{data.content}</p>
+            return  <div className="flex items-center justify-center gap-4 bg-zinc-800 rounded-xl p-5 px-8" key={data._id}>
+            <img src={data.img} alt={data.title} className='w-14 h-14 object-cover'/>
+            <div className="">
+              <h2 className='text-[1.5rem] font-bold'>{data.title}</h2>
+              <p className='text-[0.8rem]'>{data.content}</p>
             </div>
           </div>
           })

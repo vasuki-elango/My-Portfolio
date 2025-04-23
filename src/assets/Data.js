@@ -22,6 +22,11 @@ export const Tools =[
         _id:4,
         name:"Adobe XD",
         level:"Intermediate",
+    },
+    {
+        _id:5,
+        name:"Excel",
+        level:"Advance",
     }
 ]
 export const langu =[

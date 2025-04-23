@@ -1,24 +1,25 @@
-import { About } from "./Components/About";
-import { Contact } from "./Components/Contact";
-import { Footer } from "./Components/Footer";
 import { Header } from "./Components/Header";
 import { HeroSection } from "./Components/HeroSection";
-import { Project } from "./Components/Project";
-import { Service } from "./Components/Service";
+import { About } from "./Components/About";
 import { Skills } from "./Components/Skills";
-import './App.css'
+import { Service } from "./Components/Service";
+import { Project } from "./Components/Project";
+import { Contact } from "./Components/Contact";
+import { Footer } from "./Components/Footer";
+import { ToastContainer } from 'react-toastify';
 
 function App() {
   return (
-    <div className="App">
+    <div className="w-full mx-auto overflow-hidden">
       <Header/>
       <HeroSection/>
       <About/>
       <Skills/>
       <Service/>
       <Project/>
-      <Contact/>
+      <Contact/> 
       <Footer/>
+      <ToastContainer/>
     </div>
   );
 }
