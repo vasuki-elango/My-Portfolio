@@ -1,5 +1,4 @@
 import React, { useRef } from 'react'
-import whats from '../assets/whatsapp.png'
 import gmail from '../assets/gmail.png'
 import github from '../assets/github.png'
 import linkedin from '../assets/Linkedin.png'
@@ -58,11 +57,10 @@ export const Contact = () => {
         </form>
 
         {/* social links */}
-        <div className="flex items-center justify-center">
-            <a href="https://wa.me/+918903183013" target='__blank'><img src={whats} alt="Whatsapp" className="w-[3rem] h-[3rem] object-cover mx-2" /></a>
-            <a href="mailto:vasukie96@gmail.com" target='__blank'><img src={gmail} alt="Gmail" className="w-[3rem] h-[3rem] object-cover mx-2" /></a>
-            <a href="https://github.com/vasuki-elango" target='__blank'><img src={github} alt="GitHub" className="w-[3rem] h-[3rem] object-cover mx-2" /></a>
-            <a href="https://www.linkedin.com/in/vasuki-e-b76441246/" target='__blank'><img src={linkedin} alt="Linkedin" className="w-[3rem] h-[3rem] object-cover mx-2" /></a>
+        <div className="flex items-center justify-center gap-2 ">
+            <a href="mailto:vasukie96@gmail.com" target='__blank'><img src={gmail} alt="Gmail" className="w-8 h-8 object-cover " /></a>
+            <a href="https://github.com/vasuki-elango" target='__blank'><img src={github} alt="GitHub" className="w-8 h-8 object-cover " /></a>
+            <a href="https://www.linkedin.com/in/vasuki-e-b76441246/" target='__blank'><img src={linkedin} alt="Linkedin" className="w-8 h-8 object-cover" /></a>
         </div>
     </section>
   )

@@ -3,7 +3,7 @@ import { langu, Tools } from '../assets/Data'
 
 export const Skills = () => {   
   return (
-    <section className='mx-auto max-w-[55rem] p-5' id='skills'>
+    <section className='mx-auto max-w-[55rem] p-12 md:p-3 ' id='skills'>
         <h2 className='sectionTitle'>My Skills</h2>
         <div className="grid my-5 sm:grid-cols-2 gap-5">
             {/* techincal skills */}

@@ -1,4 +1,4 @@
-import React from 'react'
+import { FaFile } from "react-icons/fa";
 import AboutImg from '../assets/about.jpg'
 import pdf from '../assets/Vasuki.pdf'
 
@@ -36,14 +36,12 @@ export const About = () => {
 
                     {/* intro */}
                     <p className="text-justify">
-                        I'm Vasuki, a dedicated Computer Science student at AAA College with a passion for crafting clean, responsive, and user-friendly web applications. With a solid foundation in programming languages like Java and JavaScript, I’ve honed my skills through internships and real-world projects involving the MERN stack, React, and modern UI/UX design tools.
-                        I enjoy solving challenges — whether it’s optimizing a backend flow, building an intuitive frontend, or designing smooth user experiences in Figma. My work reflects a blend of technical precision and creative vision.
-                        I'm constantly learning, whether it’s diving into new frameworks or enhancing team collaboration through projects. I’m now actively seeking opportunities where I can contribute, grow, and bring value as a full-stack developer or UI/UX designer.
+                        I'm Vasuki, a Computer Science student at AAA College with a strong interest in full-stack development, UI/UX design, and software development. I enjoy building clean, responsive web apps using the MERN stack, React, Tailwind CSS, and Figma for intuitive design.I have a solid foundation in programming languages like Java, JavaScript, and Python, and I'm actively learning Data Structures and Algorithms to strengthen my problem-solving skills. I've gained practical experience through internships and real-world projects.Always eager to explore new technologies and collaborate on meaningful projects, I'm currently seeking opportunities as a full-stack developer, software developer, or UI/UX designer.
                     </p>
 
                     {/* download btn */}
-                    <button className='flex items-center justify-center gap-2 rounded-full px-2 py-2 bg-white transition-all hover:bg-yellow-300 text-black mt-3'>
-                        <i className='bx bxs-download' ></i>
+                    <button className='flex items-center justify-center gap-2 rounded-full px-4 py-2 bg-white transition-all hover:bg-yellow-300 text-black mt-3'>
+                        <FaFile/>
                         <a download="vasuki" href={pdf} >Download Cv</a>
                     </button>
                 </div>
