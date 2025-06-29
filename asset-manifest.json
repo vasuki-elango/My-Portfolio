@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/My-Portfolio/static/css/main.734caf79.css",
-    "main.js": "/My-Portfolio/static/js/main.317a4fd3.js",
+    "main.css": "/My-Portfolio/static/css/main.4c938330.css",
+    "main.js": "/My-Portfolio/static/js/main.95509a95.js",
     "static/media/organic.png": "/My-Portfolio/static/media/organic.5aec539bb2fd5f89778c.png",
     "static/media/MovieHub.png": "/My-Portfolio/static/media/MovieHub.d1f8a399877d10687f8f.png",
     "static/media/flower.png": "/My-Portfolio/static/media/flower.1b822343d3eab20700aa.png",
@@ -12,10 +12,11 @@
     "static/media/greenMind.png": "/My-Portfolio/static/media/greenMind.15887cc1ac3385f2021b.png",
     "static/media/anime.png": "/My-Portfolio/static/media/anime.238d47e50a64c363d382.png",
     "static/media/gmail.png": "/My-Portfolio/static/media/gmail.62a0417973c00b29a59a.png",
-    "static/media/whatsapp.png": "/My-Portfolio/static/media/whatsapp.37d5ed7ecb7600321d81.png",
+    "static/media/Expense Tracker.png": "/My-Portfolio/static/media/Expense Tracker.bc0d0f7f65f2578c08e8.png",
     "static/media/web.png": "/My-Portfolio/static/media/web.3278aad8579166b4b59e.png",
     "static/media/prog.png": "/My-Portfolio/static/media/prog.c032e55e529bcaabc860.png",
-    "static/media/Vasuki.pdf": "/My-Portfolio/static/media/Vasuki.897895a804b06d4f592e.pdf",
+    "static/media/Vasuki.pdf": "/My-Portfolio/static/media/Vasuki.17f56e4052df159c1831.pdf",
+    "static/media/license.jpg": "/My-Portfolio/static/media/license.512a756ba5d9a7bd5d5c.jpg",
     "static/media/Linkedin.png": "/My-Portfolio/static/media/Linkedin.2f0b5dc4ec88f9336d9f.png",
     "static/media/about.jpg": "/My-Portfolio/static/media/about.ef03f5a575eb2a3d447a.jpg",
     "static/media/github.png": "/My-Portfolio/static/media/github.345dc4a21070f9083ca7.png",
@@ -23,11 +24,11 @@
     "static/media/Me.jpg": "/My-Portfolio/static/media/Me.c7b5aa1974f06ea04e05.jpg",
     "static/media/uiux.png": "/My-Portfolio/static/media/uiux.f3ca39d6b6f330d4d8a9.png",
     "index.html": "/My-Portfolio/index.html",
-    "main.734caf79.css.map": "/My-Portfolio/static/css/main.734caf79.css.map",
-    "main.317a4fd3.js.map": "/My-Portfolio/static/js/main.317a4fd3.js.map"
+    "main.4c938330.css.map": "/My-Portfolio/static/css/main.4c938330.css.map",
+    "main.95509a95.js.map": "/My-Portfolio/static/js/main.95509a95.js.map"
   },
   "entrypoints": [
-    "static/css/main.734caf79.css",
-    "static/js/main.317a4fd3.js"
+    "static/css/main.4c938330.css",
+    "static/js/main.95509a95.js"
   ]
 }
